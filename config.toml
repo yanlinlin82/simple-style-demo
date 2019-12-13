@@ -1,4 +1,5 @@
-baseURL = "https://gohugo.io"
+baseURL = "https://yanlinlin82.github.io/simple-style-demo/"
+theme = "simple-style"
 title = "Hugo Themes"
 author = "Steve Francia"
 copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
