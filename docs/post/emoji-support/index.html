@@ -4,32 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Emoji Support - Hugo Themes</title>
-<style type="text/css">
-body{margin:16px auto;max-width:677px;padding:0 10px;color:#333;line-height:1.6}
-h1,h2,h3{line-height:1.2}
-h1{font-size:160%}
-h2{font-size:120%}
-h3,h4,h5,h6{font-size:100%}
-header{margin:0;padding:0;border-bottom:1px solid #999;line-height:1}
-footer{margin:0;padding:10px 0;border-top:1px solid #999;line-height:1;text-align:center}
-p,div,table,ul,ol{margin:10px 0}
-img{margin:10px auto;max-width:600px;padding:0 10px;height:auto;display:block}
-hr{border:none;border-top:1px dashed #999;color:#fff;background-color:#fff;height:1px}
-a{color:#00f}
-a:visited{color:#009}
-a:hover{color:#f00}
-header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited{text-decoration:none;color:#333}
-header a:hover,footer a:hover,h1 a:hover,h2 a:hover{text-decoration:none;color:#f00}
-nav{padding:10px 0;text-align:right}
-nav a{padding-left:15px}
-table{border-collapse:collapse}
-th,td{border:1px solid gray;padding:2px 5px}
-code{border:1px solid #999;background-color:#f0f0f0;padding:1px 2px}
-pre{border:1px solid #999;background-color:#f0f0f0;padding:5px;overflow:auto;max-height:500px}
-pre code{border:0;background:none;padding:0}
-ul.pagination{list-style-type:none;text-align:center}
-li.page-item{display:inline;padding-right:15px}
-</style>
+<link rel="stylesheet" type="text/css" href="https://yanlinlin82.github.io/simple-style-demo//css/main.css">
 </head>
 <body>
 <header>
@@ -39,17 +14,17 @@ li.page-item{display:inline;padding-right:15px}
   <nav><a href="/simple-style-demo/about/">About</a></nav>
 </header>
 <main>
-  <article class="content">
-    <div>
+  <article>
+    <div class="title">
   <h1>Emoji Support</h1>
-</div>
-<div>
-  <div>2019-03-05 00:00</span>
-  <div>
-    <span><a href="/simple-style-demo/tags/emoji/">#emoji</a></span>
-    </div>
   </div>
-<div>
+<div class="meta">
+  <div>2019-03-05 00:00</div>
+  <div>
+    <span><a href="https://yanlinlin82.github.io/simple-style-demo/tags/emoji/">#emoji</a></span>
+      </div>
+  </div>
+<div class="content">
   <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
 <p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
 <p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
