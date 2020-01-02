@@ -1,22 +1,28 @@
-# hugoBasicExample
+# Demo of Hugo Theme 'simple-style'
 
-This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).
+This repository offers an example site for my [Hugo](https://gohugo.io/) theme '[simple-style](https://github.com/yanlinlin82/simple-style)'.
 
-# Using
+[Click here](https://yanlinlin82.github.io/simple-style-demo/) to show the online demo.
 
-1. [Install Hugo](https://gohugo.io/overview/installing/)
-2. Clone this repository
-```bash
-git clone https://github.com/gohugoio/hugoBasicExample.git
-cd hugoBasicExample
+# Usage
+
+1. Download the source code from github:
+
+```sh
+cd /path-to-hugo-site/
+mkdir -p themes/
+git clone https://github.com/yanlinlin82/simple-style themes/simple-style/
 ```
-3. Clone the repository you want to test. If you want to test all Hugo Themes then follow the instructions provided [here](https://github.com/gohugoio/hugoThemes#installing-all-themes)
-4. Run Hugo and select the theme of your choosing
-```bash
-hugo server -t YOURTHEME
+
+2. Edit `config.toml`, add the following line:
+
 ```
-5. Under `/content/` this repository contains the following:
-- A section called `/post/` with sample markdown content
-- A headless bundle called `homepage` that you may want to use for single page applications. You can find instructions about headless bundles over [here](https://gohugo.io/content-management/page-bundles/#headless-bundle)
-- An `about.md` that is intended to provide the `/about/` page for a theme demo
-6. If you intend to build a theme that does not fit in the content structure provided in this repository, then you are still more than welcome to submit it for review at the [Hugo Themes](https://github.com/gohugoio/hugoThemes/issues) respository
+theme = "simple-style"
+```
+
+
+# Screenshots
+
+<img style="border:1px solid #333;text-align:center;max-width:400px;height:auto" src="images/screenshot-001.png"><br>
+<img style="border:1px solid #333;text-align:center;max-width:400px;height:auto" src="images/screenshot-002.png"><br>
+<img style="border:1px solid #333;text-align:center;max-width:400px;height:auto" src="images/screenshot-003.png"><br>
