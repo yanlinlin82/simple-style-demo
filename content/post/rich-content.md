@@ -13,9 +13,9 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 <!--more-->
 ---
 
-## Instagram Simple Shortcode
+## Instagram Shortcode
 
-{{< instagram_simple BGvuInzyFAe hidecaption >}}
+{{< instagram BGvuInzyFAe hidecaption >}}
 
 <br>
 
@@ -28,15 +28,3 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 <br>
 
 ---
-
-## Twitter Simple Shortcode
-
-{{< twitter_simple 1085870671291310081 >}}
-
-<br>
-
----
-
-## Vimeo Simple Shortcode
-
-{{< vimeo_simple 48912912 >}}
